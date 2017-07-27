@@ -20,7 +20,8 @@ public class Main {
         Shape third = new Square(Colour.GREEN, 3);
         Shape forth = new Square(Colour.GREEN,5);
 
-
+        //        Circle circle = new Circle();
+        //        list.add(circle);
 
         List<Shape> shapes = new ArrayList<>();
         //shapes.add(1, first);
@@ -28,15 +29,16 @@ public class Main {
 
 
 
+
     }
 
-//    private double calculateCost(List<Shape> shapes, Colour colour) { return 0;}
+//    private double calculateCost(List<Shape> shapes, Colour filterColour) { return 0;}
     private static double calculateCost (Shape shapes, Colour colour) {
         return shapes.size() * colour.getCost;
     }
     // находим стоимость определенного цвета
 
-    private Shape findLargest(List<Shape> shapes){
+    private Shape findMostExpensive(List<Shape> shapes){
         return null;
         // находим самый дорогой
     }
